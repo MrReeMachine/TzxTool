@@ -8,11 +8,30 @@
 
 /* Begin PBXBuildFile section */
 		CC0B32232379E6390059AED5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0B32222379E6390059AED5 /* AppDelegate.m */; };
-		CC0B32262379E6390059AED5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0B32252379E6390059AED5 /* ViewController.m */; };
+		CC0B32262379E6390059AED5 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = CC0B32252379E6390059AED5 /* ViewController.mm */; };
 		CC0B32292379E6390059AED5 /* TZXTool.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CC0B32272379E6390059AED5 /* TZXTool.xcdatamodeld */; };
 		CC0B322B2379E63A0059AED5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CC0B322A2379E63A0059AED5 /* Assets.xcassets */; };
 		CC0B322E2379E63A0059AED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC0B322C2379E63A0059AED5 /* Main.storyboard */; };
 		CC0B32312379E63A0059AED5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CC0B32302379E63A0059AED5 /* main.m */; };
+		CCD7D3772387E1E300F5B545 /* TZXBlockPulseSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D3512387E1E200F5B545 /* TZXBlockPulseSequence.cpp */; };
+		CCD7D3782387E1E300F5B545 /* TZXBlockArchiveInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D3522387E1E200F5B545 /* TZXBlockArchiveInfo.cpp */; };
+		CCD7D3792387E1E300F5B545 /* TZXBlockPureTone.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D3542387E1E200F5B545 /* TZXBlockPureTone.cpp */; };
+		CCD7D37A2387E1E300F5B545 /* TZXBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D3562387E1E200F5B545 /* TZXBlock.cpp */; };
+		CCD7D37B2387E1E300F5B545 /* TZXBlockPause.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D3572387E1E200F5B545 /* TZXBlockPause.cpp */; };
+		CCD7D37C2387E1E300F5B545 /* TZXBlockMessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D3582387E1E200F5B545 /* TZXBlockMessage.cpp */; };
+		CCD7D37D2387E1E300F5B545 /* TZXFile.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D35B2387E1E200F5B545 /* TZXFile.cpp */; };
+		CCD7D37E2387E1E300F5B545 /* TZXBlockHardwareType.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D35C2387E1E200F5B545 /* TZXBlockHardwareType.cpp */; };
+		CCD7D37F2387E1E300F5B545 /* TZXBlockTurboSpeedData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D35D2387E1E200F5B545 /* TZXBlockTurboSpeedData.cpp */; };
+		CCD7D3802387E1E300F5B545 /* TZXBlockGroupStart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D35F2387E1E200F5B545 /* TZXBlockGroupStart.cpp */; };
+		CCD7D3812387E1E300F5B545 /* TZXBlockGroupEnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D3642387E1E200F5B545 /* TZXBlockGroupEnd.cpp */; };
+		CCD7D3822387E1E300F5B545 /* TZXBlockStopTheTape48K.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D3672387E1E300F5B545 /* TZXBlockStopTheTape48K.cpp */; };
+		CCD7D3832387E1E300F5B545 /* TZXBlockTextDescription.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D3682387E1E300F5B545 /* TZXBlockTextDescription.cpp */; };
+		CCD7D3842387E1E300F5B545 /* TZXBlockCustomInfo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D36A2387E1E300F5B545 /* TZXBlockCustomInfo.cpp */; };
+		CCD7D3852387E1E300F5B545 /* TZXBlockLoopEnd.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D36C2387E1E300F5B545 /* TZXBlockLoopEnd.cpp */; };
+		CCD7D3862387E1E300F5B545 /* TZXAudioGenerator.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D36E2387E1E300F5B545 /* TZXAudioGenerator.cpp */; };
+		CCD7D3872387E1E300F5B545 /* TZXBlockStandardSpeedData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D36F2387E1E300F5B545 /* TZXBlockStandardSpeedData.cpp */; };
+		CCD7D3882387E1E300F5B545 /* TZXBlockPureData.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D3722387E1E300F5B545 /* TZXBlockPureData.cpp */; };
+		CCD7D3892387E1E300F5B545 /* TZXBlockLoopStart.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CCD7D3742387E1E300F5B545 /* TZXBlockLoopStart.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,13 +39,51 @@
 		CC0B32212379E6390059AED5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CC0B32222379E6390059AED5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CC0B32242379E6390059AED5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		CC0B32252379E6390059AED5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CC0B32252379E6390059AED5 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		CC0B32282379E6390059AED5 /* TZXTool.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TZXTool.xcdatamodel; sourceTree = "<group>"; };
 		CC0B322A2379E63A0059AED5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CC0B322D2379E63A0059AED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CC0B322F2379E63A0059AED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC0B32302379E63A0059AED5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CC0B32322379E63A0059AED5 /* TZXTool.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TZXTool.entitlements; sourceTree = "<group>"; };
+		CCD7D3512387E1E200F5B545 /* TZXBlockPulseSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockPulseSequence.cpp; sourceTree = "<group>"; };
+		CCD7D3522387E1E200F5B545 /* TZXBlockArchiveInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockArchiveInfo.cpp; sourceTree = "<group>"; };
+		CCD7D3532387E1E200F5B545 /* TZXBlockPureData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockPureData.h; sourceTree = "<group>"; };
+		CCD7D3542387E1E200F5B545 /* TZXBlockPureTone.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockPureTone.cpp; sourceTree = "<group>"; };
+		CCD7D3552387E1E200F5B545 /* TZXAudioGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXAudioGenerator.h; sourceTree = "<group>"; };
+		CCD7D3562387E1E200F5B545 /* TZXBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlock.cpp; sourceTree = "<group>"; };
+		CCD7D3572387E1E200F5B545 /* TZXBlockPause.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockPause.cpp; sourceTree = "<group>"; };
+		CCD7D3582387E1E200F5B545 /* TZXBlockMessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockMessage.cpp; sourceTree = "<group>"; };
+		CCD7D3592387E1E200F5B545 /* TZXBlock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlock.h; sourceTree = "<group>"; };
+		CCD7D35A2387E1E200F5B545 /* TZXBlockStopTheTape48K.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockStopTheTape48K.h; sourceTree = "<group>"; };
+		CCD7D35B2387E1E200F5B545 /* TZXFile.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXFile.cpp; sourceTree = "<group>"; };
+		CCD7D35C2387E1E200F5B545 /* TZXBlockHardwareType.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockHardwareType.cpp; sourceTree = "<group>"; };
+		CCD7D35D2387E1E200F5B545 /* TZXBlockTurboSpeedData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockTurboSpeedData.cpp; sourceTree = "<group>"; };
+		CCD7D35E2387E1E200F5B545 /* TZXBlockPulseSequence.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockPulseSequence.h; sourceTree = "<group>"; };
+		CCD7D35F2387E1E200F5B545 /* TZXBlockGroupStart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockGroupStart.cpp; sourceTree = "<group>"; };
+		CCD7D3602387E1E200F5B545 /* TZXBlockStandardSpeedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockStandardSpeedData.h; sourceTree = "<group>"; };
+		CCD7D3612387E1E200F5B545 /* TZXBlockTextDescription.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockTextDescription.h; sourceTree = "<group>"; };
+		CCD7D3622387E1E200F5B545 /* TZXBlockLoopStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockLoopStart.h; sourceTree = "<group>"; };
+		CCD7D3632387E1E200F5B545 /* TZXFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXFile.h; sourceTree = "<group>"; };
+		CCD7D3642387E1E200F5B545 /* TZXBlockGroupEnd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockGroupEnd.cpp; sourceTree = "<group>"; };
+		CCD7D3652387E1E200F5B545 /* TZXBlockPureTone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockPureTone.h; sourceTree = "<group>"; };
+		CCD7D3662387E1E300F5B545 /* TZXBlockLoopEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockLoopEnd.h; sourceTree = "<group>"; };
+		CCD7D3672387E1E300F5B545 /* TZXBlockStopTheTape48K.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockStopTheTape48K.cpp; sourceTree = "<group>"; };
+		CCD7D3682387E1E300F5B545 /* TZXBlockTextDescription.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockTextDescription.cpp; sourceTree = "<group>"; };
+		CCD7D3692387E1E300F5B545 /* TZXBlockMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockMessage.h; sourceTree = "<group>"; };
+		CCD7D36A2387E1E300F5B545 /* TZXBlockCustomInfo.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockCustomInfo.cpp; sourceTree = "<group>"; };
+		CCD7D36B2387E1E300F5B545 /* TZXBlockGroupEnd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockGroupEnd.h; sourceTree = "<group>"; };
+		CCD7D36C2387E1E300F5B545 /* TZXBlockLoopEnd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockLoopEnd.cpp; sourceTree = "<group>"; };
+		CCD7D36D2387E1E300F5B545 /* TZXBlockHardwareType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockHardwareType.h; sourceTree = "<group>"; };
+		CCD7D36E2387E1E300F5B545 /* TZXAudioGenerator.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXAudioGenerator.cpp; sourceTree = "<group>"; };
+		CCD7D36F2387E1E300F5B545 /* TZXBlockStandardSpeedData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockStandardSpeedData.cpp; sourceTree = "<group>"; };
+		CCD7D3702387E1E300F5B545 /* TZXBlockPause.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockPause.h; sourceTree = "<group>"; };
+		CCD7D3712387E1E300F5B545 /* TZXBlockArchiveInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockArchiveInfo.h; sourceTree = "<group>"; };
+		CCD7D3722387E1E300F5B545 /* TZXBlockPureData.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockPureData.cpp; sourceTree = "<group>"; };
+		CCD7D3732387E1E300F5B545 /* TZXBlockTurboSpeedData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockTurboSpeedData.h; sourceTree = "<group>"; };
+		CCD7D3742387E1E300F5B545 /* TZXBlockLoopStart.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TZXBlockLoopStart.cpp; sourceTree = "<group>"; };
+		CCD7D3752387E1E300F5B545 /* TZXBlockCustomInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockCustomInfo.h; sourceTree = "<group>"; };
+		CCD7D3762387E1E300F5B545 /* TZXBlockGroupStart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZXBlockGroupStart.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +116,11 @@
 		CC0B32202379E6390059AED5 /* TZXTool */ = {
 			isa = PBXGroup;
 			children = (
+				CCB3BAA723873108002DCE00 /* TZXFile */,
 				CC0B32212379E6390059AED5 /* AppDelegate.h */,
 				CC0B32222379E6390059AED5 /* AppDelegate.m */,
 				CC0B32242379E6390059AED5 /* ViewController.h */,
-				CC0B32252379E6390059AED5 /* ViewController.m */,
+				CC0B32252379E6390059AED5 /* ViewController.mm */,
 				CC0B322A2379E63A0059AED5 /* Assets.xcassets */,
 				CC0B322C2379E63A0059AED5 /* Main.storyboard */,
 				CC0B322F2379E63A0059AED5 /* Info.plist */,
@@ -71,6 +129,51 @@
 				CC0B32272379E6390059AED5 /* TZXTool.xcdatamodeld */,
 			);
 			path = TZXTool;
+			sourceTree = "<group>";
+		};
+		CCB3BAA723873108002DCE00 /* TZXFile */ = {
+			isa = PBXGroup;
+			children = (
+				CCD7D36E2387E1E300F5B545 /* TZXAudioGenerator.cpp */,
+				CCD7D3552387E1E200F5B545 /* TZXAudioGenerator.h */,
+				CCD7D3562387E1E200F5B545 /* TZXBlock.cpp */,
+				CCD7D3592387E1E200F5B545 /* TZXBlock.h */,
+				CCD7D3522387E1E200F5B545 /* TZXBlockArchiveInfo.cpp */,
+				CCD7D3712387E1E300F5B545 /* TZXBlockArchiveInfo.h */,
+				CCD7D36A2387E1E300F5B545 /* TZXBlockCustomInfo.cpp */,
+				CCD7D3752387E1E300F5B545 /* TZXBlockCustomInfo.h */,
+				CCD7D3642387E1E200F5B545 /* TZXBlockGroupEnd.cpp */,
+				CCD7D36B2387E1E300F5B545 /* TZXBlockGroupEnd.h */,
+				CCD7D35F2387E1E200F5B545 /* TZXBlockGroupStart.cpp */,
+				CCD7D3762387E1E300F5B545 /* TZXBlockGroupStart.h */,
+				CCD7D35C2387E1E200F5B545 /* TZXBlockHardwareType.cpp */,
+				CCD7D36D2387E1E300F5B545 /* TZXBlockHardwareType.h */,
+				CCD7D36C2387E1E300F5B545 /* TZXBlockLoopEnd.cpp */,
+				CCD7D3662387E1E300F5B545 /* TZXBlockLoopEnd.h */,
+				CCD7D3742387E1E300F5B545 /* TZXBlockLoopStart.cpp */,
+				CCD7D3622387E1E200F5B545 /* TZXBlockLoopStart.h */,
+				CCD7D3582387E1E200F5B545 /* TZXBlockMessage.cpp */,
+				CCD7D3692387E1E300F5B545 /* TZXBlockMessage.h */,
+				CCD7D3572387E1E200F5B545 /* TZXBlockPause.cpp */,
+				CCD7D3702387E1E300F5B545 /* TZXBlockPause.h */,
+				CCD7D3512387E1E200F5B545 /* TZXBlockPulseSequence.cpp */,
+				CCD7D35E2387E1E200F5B545 /* TZXBlockPulseSequence.h */,
+				CCD7D3722387E1E300F5B545 /* TZXBlockPureData.cpp */,
+				CCD7D3532387E1E200F5B545 /* TZXBlockPureData.h */,
+				CCD7D3542387E1E200F5B545 /* TZXBlockPureTone.cpp */,
+				CCD7D3652387E1E200F5B545 /* TZXBlockPureTone.h */,
+				CCD7D36F2387E1E300F5B545 /* TZXBlockStandardSpeedData.cpp */,
+				CCD7D3602387E1E200F5B545 /* TZXBlockStandardSpeedData.h */,
+				CCD7D3672387E1E300F5B545 /* TZXBlockStopTheTape48K.cpp */,
+				CCD7D35A2387E1E200F5B545 /* TZXBlockStopTheTape48K.h */,
+				CCD7D3682387E1E300F5B545 /* TZXBlockTextDescription.cpp */,
+				CCD7D3612387E1E200F5B545 /* TZXBlockTextDescription.h */,
+				CCD7D35D2387E1E200F5B545 /* TZXBlockTurboSpeedData.cpp */,
+				CCD7D3732387E1E300F5B545 /* TZXBlockTurboSpeedData.h */,
+				CCD7D35B2387E1E200F5B545 /* TZXFile.cpp */,
+				CCD7D3632387E1E200F5B545 /* TZXFile.h */,
+			);
+			path = TZXFile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,10 +245,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC0B32262379E6390059AED5 /* ViewController.m in Sources */,
+				CCD7D3842387E1E300F5B545 /* TZXBlockCustomInfo.cpp in Sources */,
+				CCD7D37E2387E1E300F5B545 /* TZXBlockHardwareType.cpp in Sources */,
+				CCD7D3792387E1E300F5B545 /* TZXBlockPureTone.cpp in Sources */,
+				CCD7D37B2387E1E300F5B545 /* TZXBlockPause.cpp in Sources */,
+				CCD7D3802387E1E300F5B545 /* TZXBlockGroupStart.cpp in Sources */,
+				CCD7D3822387E1E300F5B545 /* TZXBlockStopTheTape48K.cpp in Sources */,
+				CCD7D3852387E1E300F5B545 /* TZXBlockLoopEnd.cpp in Sources */,
+				CCD7D3872387E1E300F5B545 /* TZXBlockStandardSpeedData.cpp in Sources */,
+				CC0B32262379E6390059AED5 /* ViewController.mm in Sources */,
 				CC0B32232379E6390059AED5 /* AppDelegate.m in Sources */,
 				CC0B32312379E63A0059AED5 /* main.m in Sources */,
+				CCD7D3832387E1E300F5B545 /* TZXBlockTextDescription.cpp in Sources */,
+				CCD7D3772387E1E300F5B545 /* TZXBlockPulseSequence.cpp in Sources */,
+				CCD7D37F2387E1E300F5B545 /* TZXBlockTurboSpeedData.cpp in Sources */,
+				CCD7D3862387E1E300F5B545 /* TZXAudioGenerator.cpp in Sources */,
+				CCD7D37C2387E1E300F5B545 /* TZXBlockMessage.cpp in Sources */,
+				CCD7D3812387E1E300F5B545 /* TZXBlockGroupEnd.cpp in Sources */,
 				CC0B32292379E6390059AED5 /* TZXTool.xcdatamodeld in Sources */,
+				CCD7D3782387E1E300F5B545 /* TZXBlockArchiveInfo.cpp in Sources */,
+				CCD7D3882387E1E300F5B545 /* TZXBlockPureData.cpp in Sources */,
+				CCD7D37D2387E1E300F5B545 /* TZXFile.cpp in Sources */,
+				CCD7D37A2387E1E300F5B545 /* TZXBlock.cpp in Sources */,
+				CCD7D3892387E1E300F5B545 /* TZXBlockLoopStart.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,6 +406,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ohcrikey.TZXTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -301,6 +424,7 @@
 					"$(inherited)",
 					"@executable_path/../Frameworks",
 				);
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = com.ohcrikey.TZXTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
